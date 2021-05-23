@@ -8,11 +8,11 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home Screen'),
+        title: Text('Cinema Premier'),
       ),
       body: Center(
         child: Text(
-          'This is my home screen', style: TextStyle(
+          'Tampilan cinema-nya', style: TextStyle(
           fontWeight: FontWeight.bold,
           fontSize: 20,
         ),
